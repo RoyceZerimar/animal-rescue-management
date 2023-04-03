@@ -4,6 +4,8 @@ This is a program for managing a database of rescue dogs and monkeys for a compa
 Files
 The program consists of the following files:
 
+To run the progam, run the Driver.javafile.
+
 Driver.java: This file contains the main method and menu loop for the program.
 RescueAnimal.java: This is the parent class for both Dog.java and Monkey.java. It contains common attributes and methods for all rescue animals.
 Dog.java: This file contains the Dog class, which inherits from RescueAnimal. It includes attributes specific to dogs, such as breed and training status.
