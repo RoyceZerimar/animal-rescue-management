@@ -1,23 +1,49 @@
-Rescue Animal Database
-This is a program for managing a database of rescue dogs and monkeys for a company that takes in and trains these animals. The program allows users to add new animals to the database and view information about existing animals.
+# Rescue Animal Management System
 
-Files
-The program consists of the following files:
+## Overview
 
-To run the progam, run the Driver.javafile.
+This Java program implements a command-line application for managing a rescue animal system. The system allows users to intake new dogs and monkeys, reserve animals, and print lists of animals.
 
-Driver.java: This file contains the main method and menu loop for the program.
-RescueAnimal.java: This is the parent class for both Dog.java and Monkey.java. It contains common attributes and methods for all rescue animals.
-Dog.java: This file contains the Dog class, which inherits from RescueAnimal. It includes attributes specific to dogs, such as breed and training status.
-Monkey.java: This file contains the Monkey class, which also inherits from RescueAnimal. It includes attributes specific to monkeys, such as species and level of socialization.
-How to use
-To run the program, open Driver.java and run the main method. This will start the menu loop, which allows you to choose from the following options:
+### Files
 
-Add a new dog to the database
-Add a new monkey to the database
-View all dogs in the database
-View all monkeys in the database
-Exit the program
-When you choose to add a new animal, the program will prompt you to enter information about the animal, such as its name, age, and any special characteristics. The program will then add the animal to the appropriate database.
+- `Driver.java`
+- `Dog.java`
+- `Monkey.java`
+- `RescueAnimal.java`
 
-When you choose to view all animals, the program will display a list of all animals in the database, along with their attributes.
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your_username/rescue-animal-management.git
+```
+
+2. Compile the Java files:
+
+```bash
+javac Driver.java Dog.java Monkey.java RescueAnimal.java
+```
+
+3. Run the program:
+
+```bash
+java Driver
+```
+
+4. Follow the on-screen instructions to navigate through the menu options.
+
+## Features
+
+- **Intake Animals**: Add new dogs and monkeys to the system.
+- **Reserve Animals**: Reserve an animal by specifying its type, service country, and name.
+- **Print Lists**: Print lists of all dogs, all monkeys, or all available animals.
+- **Modular Design**: The program is structured with separate classes for dogs, monkeys, and the main program logic for better organization and maintainability.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please submit an issue or a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
